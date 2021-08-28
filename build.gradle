@@ -48,6 +48,6 @@ test {
 	useJUnitPlatform()
 }
 
-bootRepackage {
+/*bootRepackage {
 	enabled = false
-}
+}*/
