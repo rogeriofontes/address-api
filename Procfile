@@ -1,1 +1,1 @@
-web: java -jar -Dspring.profiles.active=heroku build/libs/address-api-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar -Dspring.profiles.active=heroku build/libs/address-api-0.0.1-SNAPSHOT.jar
