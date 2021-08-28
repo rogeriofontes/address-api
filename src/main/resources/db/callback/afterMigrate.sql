@@ -27,7 +27,7 @@ COMMENT ON COLUMN pais.sigla
 INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (1, 'Brazil', 'Brasil', 'BR', 1058),
 (2, 'Afghanistan', 'Afeganistão', 'AF', 132),
-(3, 'Albania', 'Albânia, Republica da', 'AL', 175),
+(3, 'Albania', 'Albânia, Re'a da', 'AL', 175),
 (4, 'Algeria', 'Argélia', 'DZ', 590),
 (5, 'American Samoa', 'Samoa Americana', 'AS', 6912),
 (6, 'Andorra', 'Andorra', 'AD', 370),
@@ -36,63 +36,63 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (9, 'Antarctica', 'Antártida', 'AQ', 3596),
 (10, 'Antigua and Barbuda', 'Antigua e Barbuda', 'AG', 434),
 (11, 'Argentina', 'Argentina', 'AR', 639),
-(12, 'Armenia', 'Armênia, Republica da', 'AM', 647),
+(12, 'Armenia', 'Armênia, Re'a da', 'AM', 647),
 (13, 'Aruba', 'Aruba', 'AW', 655),
 (14, 'Australia', 'Austrália', 'AU', 698),
 (15, 'Austria', 'Áustria', 'AT', 728),
-(16, 'Azerbaijan', 'Azerbaijão, Republica do', 'AZ', 736),
+(16, 'Azerbaijan', 'Azerbaijão, Re'a do', 'AZ', 736),
 (17, 'Bahamas', 'Bahamas, Ilhas', 'BS', 779),
 (18, 'Bahrain', 'Bahrein, Ilhas', 'BH', 809),
 (19, 'Bangladesh', 'Bangladesh', 'BD', 817),
 (20, 'Barbados', 'Barbados', 'BB', 833),
-(21, 'Belarus', 'Belarus, Republica da', 'BY', 850),
+(21, 'Belarus', 'Belarus, Re'a da', 'BY', 850),
 (22, 'Belgium', 'Bélgica', 'BE', 876),
 (23, 'Belize', 'Belize', 'BZ', 884),
 (24, 'Benin', 'Benin', 'BJ', 2291),
 (25, 'Bermuda', 'Bermudas', 'BM', 906),
 (26, 'Bhutan', 'Butão', 'BT', 1198),
 (27, 'Bolivia', 'Bolívia', 'BO', 973),
-(28, 'Bosnia and Herzegowina', 'Bósnia-herzegovina (Republica da)', 'BA', 981),
+(28, 'Bosnia and Herzegowina', 'Bósnia-herzegovina (Re'a da)', 'BA', 981),
 (29, 'Botswana', 'Botsuana', 'BW', 1015),
 (30, 'Bouvet Island', 'Bouvet, Ilha', 'BV', 1023),
 (31, 'British Indian Ocean Territory', 'Território Britânico do Oceano Indico', 'IO', 7820),
 (32, 'Brunei Darussalam', 'Brunei', 'BN', 1082),
-(33, 'Bulgaria', 'Bulgária, Republica da', 'BG', 1112),
+(33, 'Bulgaria', 'Bulgária, Re'a da', 'BG', 1112),
 (34, 'Burkina Faso', 'Burkina Faso', 'BF', 310),
 (35, 'Burundi', 'Burundi', 'BI', 1155),
 (36, 'Cambodia', 'Camboja', 'KH', 1414),
 (37, 'Cameroon', 'Camarões', 'CM', 1457),
 (38, 'Canada', 'Canada', 'CA', 1490),
-(39, 'Cape Verde', 'Cabo Verde, Republica de', 'CV', 1279),
+(39, 'Cape Verde', 'Cabo Verde, Re'a de', 'CV', 1279),
 (40, 'Cayman Islands', 'Cayman, Ilhas', 'KY', 1376),
-(41, 'Central African Republic', 'Republica Centro-Africana', 'CF', 6408),
+(41, 'Central African Re'', 'Re'a Centro-Africana', 'CF', 6408),
 (42, 'Chad', 'Chade', 'TD', 7889),
 (43, 'Chile', 'Chile', 'CL', 1589),
-(44, 'China', 'China, Republica Popular', 'CN', 1600),
+(44, 'China', 'China, Re'a Popular', 'CN', 1600),
 (45, 'Christmas Island', 'Christmas, Ilha (Navidad)', 'CX', 5118),
 (46, 'Cocos (Keeling) Islands', 'Cocos (Keeling), Ilhas', 'CC', 1651),
 (47, 'Colombia', 'Colômbia', 'CO', 1694),
 (48, 'Comoros', 'Comores, Ilhas', 'KM', 1732),
 (49, 'Congo', 'Congo', 'CG', 1775),
-(50, 'Congo, the Democratic Republic of the', 'Congo, Republica Democrática do', 'CD', 8885),
+(50, 'Congo, the Democratic Re' of the', 'Congo, Re'a Democrática do', 'CD', 8885),
 (51, 'Cook Islands', 'Cook, Ilhas', 'CK', 1830),
 (52, 'Costa Rica', 'Costa Rica', 'CR', 1961),
 (53, 'Cote d`Ivoire', 'Costa do Marfim', 'CI', 1937),
-(54, 'Croatia (Hrvatska)', 'Croácia (Republica da)', 'HR', 1953),
+(54, 'Croatia (Hrvatska)', 'Croácia (Re'a da)', 'HR', 1953),
 (55, 'Cuba', 'Cuba', 'CU', 1996),
 (56, 'Cyprus', 'Chipre', 'CY', 1635),
-(57, 'Czech Republic', 'Tcheca, Republica', 'CZ', 7919),
+(57, 'Czech Re'', 'Tcheca, Re'a', 'CZ', 7919),
 (58, 'Denmark', 'Dinamarca', 'DK', 2321),
 (59, 'Djibouti', 'Djibuti', 'DJ', 7838),
 (60, 'Dominica', 'Dominica, Ilha', 'DM', 2356),
-(61, 'Dominican Republic', 'Republica Dominicana', 'DO', 6475),
+(61, 'Dominican Re'', 'Re'a Dominicana', 'DO', 6475),
 (62, 'East Timor', 'Timor Leste', 'TL', 7951),
 (63, 'Ecuador', 'Equador', 'EC', 2399),
 (64, 'Egypt', 'Egito', 'EG', 2402),
 (65, 'El Salvador', 'El Salvador', 'SV', 6874),
 (66, 'Equatorial Guinea', 'Guine-Equatorial', 'GQ', 3310),
 (67, 'Eritrea', 'Eritreia', 'ER', 2437),
-(68, 'Estonia', 'Estônia, Republica da', 'EE', 2518),
+(68, 'Estonia', 'Estônia, Re'a da', 'EE', 2518),
 (69, 'Ethiopia', 'Etiópia', 'ET', 2534),
 (70, 'Falkland Islands (Malvinas)', 'Falkland (Ilhas Malvinas)', 'FK', 2550),
 (71, 'Faroe Islands', 'Feroe, Ilhas', 'FO', 2593),
@@ -104,7 +104,7 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (78, 'French Southern Territories', 'Terras Austrais e Antárticas Francesas', 'TF', 3607),
 (79, 'Gabon', 'Gabão', 'GA', 2810),
 (80, 'Gambia', 'Gambia', 'GM', 2852),
-(81, 'Georgia', 'Georgia, Republica da', 'GE', 2917),
+(81, 'Georgia', 'Georgia, Re'a da', 'GE', 2917),
 (82, 'Germany', 'Alemanha', 'DE', 230),
 (83, 'Ghana', 'Gana', 'GH', 2895),
 (84, 'Gibraltar', 'Gibraltar', 'GI', 2933),
@@ -122,11 +122,11 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (96, 'Holy See (Vatican City State)', 'Vaticano, Estado da Cidade do', 'VA', 8486),
 (97, 'Honduras', 'Honduras', 'HN', 3450),
 (98, 'Hong Kong', 'Hong Kong', 'HK', 3514),
-(99, 'Hungary', 'Hungria, Republica da', 'HU', 3557),
+(99, 'Hungary', 'Hungria, Re'a da', 'HU', 3557),
 (100, 'Iceland', 'Islândia', 'IS', 3794),
 (101, 'India', 'Índia', 'IN', 3611),
 (102, 'Indonesia', 'Indonésia', 'ID', 3654),
-(103, 'Iran (Islamic Republic of)', 'Ira, Republica Islâmica do', 'IR', 3727),
+(103, 'Iran (Islamic Re' of)', 'Ira, Re'a Islâmica do', 'IR', 3727),
 (104, 'Iraq', 'Iraque', 'IQ', 3697),
 (105, 'Ireland', 'Irlanda', 'IE', 3751),
 (106, 'Israel', 'Israel', 'IL', 3832),
@@ -134,21 +134,21 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (108, 'Jamaica', 'Jamaica', 'JM', 3913),
 (109, 'Japan', 'Japão', 'JP', 3999),
 (110, 'Jordan', 'Jordânia', 'JO', 4030),
-(111, 'Kazakhstan', 'Cazaquistão, Republica do', 'KZ', 1538),
+(111, 'Kazakhstan', 'Cazaquistão, Re'a do', 'KZ', 1538),
 (112, 'Kenya', 'Quênia', 'KE', 6238),
 (113, 'Kiribati', 'Kiribati', 'KI', 4111),
-(114, 'Korea, Democratic People`s Republic of', 'Coreia, Republica Popular Democrática da', 'KP', 1872),
-(115, 'Korea, Republic of', 'Coreia, Republica da', 'KR', 1902),
+(114, 'Korea, Democratic People`s Re' of', 'Coreia, Re'a Popular Democrática da', 'KP', 1872),
+(115, 'Korea, Re' of', 'Coreia, Re'a da', 'KR', 1902),
 (116, 'Kuwait', 'Kuwait', 'KW', 1988),
-(117, 'Kyrgyzstan', 'Quirguiz, Republica', 'KG', 6254),
-(118, 'Lao People`s Democratic Republic', 'Laos, Republica Popular Democrática do', 'LA', 4200),
-(119, 'Latvia', 'Letônia, Republica da', 'LV', 4278),
+(117, 'Kyrgyzstan', 'Quirguiz, Re'a', 'KG', 6254),
+(118, 'Lao People`s Democratic Re'', 'Laos, Re'a Popular Democrática do', 'LA', 4200),
+(119, 'Latvia', 'Letônia, Re'a da', 'LV', 4278),
 (120, 'Lebanon', 'Líbano', 'LB', 4316),
 (121, 'Lesotho', 'Lesoto', 'LS', 4260),
 (122, 'Liberia', 'Libéria', 'LR', 4340),
 (123, 'Libyan Arab Jamahiriya', 'Líbia', 'LY', 4383),
 (124, 'Liechtenstein', 'Liechtenstein', 'LI', 4405),
-(125, 'Lithuania', 'Lituânia, Republica da', 'LT', 4421),
+(125, 'Lithuania', 'Lituânia, Re'a da', 'LT', 4421),
 (126, 'Luxembourg', 'Luxemburgo', 'LU', 4456),
 (127, 'Macau', 'Macau', 'MO', 4472),
 (128, 'North Macedonia', 'Macedônia do Norte', 'MK', 4499),
@@ -165,7 +165,7 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (139, 'Mayotte', 'Mayotte (Ilhas Francesas)', 'YT', 4885),
 (140, 'Mexico', 'México', 'MX', 4936),
 (141, 'Micronesia, Federated States of', 'Micronesia', 'FM', 4995),
-(142, 'Moldova, Republic of', 'Moldávia, Republica da', 'MD', 4944),
+(142, 'Moldova, Re' of', 'Moldávia, Re'a da', 'MD', 4944),
 (143, 'Monaco', 'Mônaco', 'MC', 4952),
 (144, 'Mongolia', 'Mongólia', 'MN', 4979),
 (145, 'Montserrat', 'Montserrat, Ilhas', 'MS', 5010),
@@ -194,7 +194,7 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (169, 'Peru', 'Peru', 'PE', 5894),
 (170, 'Philippines', 'Filipinas', 'PH', 2674),
 (171, 'Pitcairn', 'Pitcairn, Ilha', 'PN', 5932),
-(172, 'Poland', 'Polônia, Republica da', 'PL', 6033),
+(172, 'Poland', 'Polônia, Re'a da', 'PL', 6033),
 (173, 'Portugal', 'Portugal', 'PT', 6076),
 (174, 'Puerto Rico', 'Porto Rico', 'PR', 6114),
 (175, 'Qatar', 'Catar', 'QA', 1546),
@@ -213,8 +213,8 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (188, 'Seychelles', 'Seychelles', 'SC', 7315),
 (189, 'Sierra Leone', 'Serra Leoa', 'SL', 7358),
 (190, 'Singapore', 'Cingapura', 'SG', 7412),
-(191, 'Slovakia (Slovak Republic)', 'Eslovaca, Republica', 'SK', 2470),
-(192, 'Slovenia', 'Eslovênia, Republica da', 'SI', 2461),
+(191, 'Slovakia (Slovak Re')', 'Eslovaca, Re'a', 'SK', 2470),
+(192, 'Slovenia', 'Eslovênia, Re'a da', 'SI', 2461),
 (193, 'Solomon Islands', 'Salomão, Ilhas', 'SB', 6777),
 (194, 'Somalia', 'Somalia', 'SO', 7480),
 (195, 'South Africa', 'África do Sul', 'ZA', 7560),
@@ -229,10 +229,10 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (204, 'Swaziland', 'Eswatini', 'SZ', 7544),
 (205, 'Sweden', 'Suécia', 'SE', 7641),
 (206, 'Switzerland', 'Suíça', 'CH', 7676),
-(207, 'Syrian Arab Republic', 'Síria, Republica Árabe da', 'SY', 7447),
+(207, 'Syrian Arab Re'', 'Síria, Re'a Árabe da', 'SY', 7447),
 (208, 'Taiwan, Province of China', 'Formosa (Taiwan)', 'TW', 1619),
-(209, 'Tajikistan', 'Tadjiquistao, Republica do', 'TJ', 7722),
-(210, 'Tanzania, United Republic of', 'Tanzânia, Republica Unida da', 'TZ', 7803),
+(209, 'Tajikistan', 'Tadjiquistao, Re'a do', 'TJ', 7722),
+(210, 'Tanzania, United Re' of', 'Tanzânia, Re'a Unida da', 'TZ', 7803),
 (211, 'Thailand', 'Tailândia', 'TH', 7765),
 (212, 'Togo', 'Togo', 'TG', 8001),
 (213, 'Tokelau', 'Toquelau, Ilhas', 'TK', 8052),
@@ -240,7 +240,7 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (215, 'Trinidad and Tobago', 'Trinidad e Tobago', 'TT', 8150),
 (216, 'Tunisia', 'Tunísia', 'TN', 8206),
 (217, 'Turkey', 'Turquia', 'TR', 8273),
-(218, 'Turkmenistan', 'Turcomenistão, Republica do', 'TM', 8249),
+(218, 'Turkmenistan', 'Turcomenistão, Re'a do', 'TM', 8249),
 (219, 'Turks and Caicos Islands', 'Turcas e Caicos, Ilhas', 'TC', 8230),
 (220, 'Tuvalu', 'Tuvalu', 'TV', 8281),
 (221, 'Uganda', 'Uganda', 'UG', 8338),
@@ -250,7 +250,7 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (225, 'United States', 'Estados Unidos', 'US', 2496),
 (226, 'United States Minor Outlying Islands', 'Ilhas Menores Distantes dos Estados Unidos', 'UM', 18664),
 (227, 'Uruguay', 'Uruguai', 'UY', 8451),
-(228, 'Uzbekistan', 'Uzbequistão, Republica do', 'UZ', 8478),
+(228, 'Uzbekistan', 'Uzbequistão, Re'a do', 'UZ', 8478),
 (229, 'Vanuatu', 'Vanuatu', 'VU', 5517),
 (230, 'Venezuela', 'Venezuela', 'VE', 8508),
 (231, 'Viet Nam', 'Vietnã', 'VN', 8583),
@@ -267,7 +267,7 @@ INSERT INTO "pais" (id, nome, nome_pt, sigla, bacen) VALUES
 (243, 'Isle of Man', 'Man, Ilha de', 'IM', 3595),
 (246, 'Crna Gora (Montenegro)', 'Montenegro', 'ME', 4985),
 (247, 'SÉRVIA', 'Republika Srbija', 'RS', 7370),
-(248, 'Republic of South Sudan', 'Sudao do Sul', 'SS', 7600),
+(248, 'Re' of South Sudan', 'Sudao do Sul', 'SS', 7600),
 (249, 'Zona del Canal de Panamá', 'Zona do Canal do Panamá', NULL, 8958),
 (252, 'Dawlat Filasṭīn', 'Palestina', 'PS', 5780),
 (253, 'Åland Islands', 'Aland, Ilhas', 'AX', 153),
@@ -362,7 +362,7 @@ DROP TABLE IF EXISTS "cidade" CASCADE;
 -- Estrutura da tabela "cidade"
 --
 
-CREATE TABLE public.cidade (
+CREATE TABLE '.cidade (
     id bigint NOT NULL,
     nome character varying(120),
     uf integer,
@@ -374,17 +374,17 @@ CREATE TABLE public.cidade (
 );
 
 
-COMMENT ON COLUMN public.cidade.cod_tom
+COMMENT ON COLUMN '.cidade.cod_tom
   IS 'Código TOM (SEFAZ)';
 
 
-ALTER TABLE public.cidade OWNER TO postgres;
+ALTER TABLE '.cidade OWNER TO postgres;
 
 --
--- Name: cidade_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+-- Name: cidade_id_seq; Type: SEQUENCE; Schema: '; Owner: postgres
 --
 
-CREATE SEQUENCE public.cidade_id_seq
+CREATE SEQUENCE '.cidade_id_seq
     START WITH 1
     INCREMENT BY 1
     NO MINVALUE
@@ -392,19 +392,19 @@ CREATE SEQUENCE public.cidade_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.cidade_id_seq OWNER TO postgres;
+ALTER TABLE '.cidade_id_seq OWNER TO postgres;
 
 --
--- Name: cidade_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+-- Name: cidade_id_seq; Type: SEQUENCE OWNED BY; Schema: '; Owner: postgres
 --
 
-ALTER SEQUENCE public.cidade_id_seq OWNED BY public.cidade.id;
+ALTER SEQUENCE '.cidade_id_seq OWNED BY '.cidade.id;
 
 
 --
--- Name: cidade id; Type: DEFAULT; Schema: public; Owner: postgres
+-- Name: cidade id; Type: DEFAULT; Schema: '; Owner: postgres
 --
 
-ALTER TABLE ONLY public.cidade ALTER COLUMN id SET DEFAULT nextval('public.cidade_id_seq'::regclass);
+ALTER TABLE ONLY '.cidade ALTER COLUMN id SET DEFAULT nextval(''.cidade_id_seq'::regclass);
 
 
